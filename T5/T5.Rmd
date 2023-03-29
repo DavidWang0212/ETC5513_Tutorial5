@@ -7,13 +7,19 @@ output: html_document
 
 This is an example for rebasing repo.
 
-<<<<<<< HEAD
-This is my another example
-=======
+
 ```{r}
 # Libraries
 library(tidyverse)
 library(palmerpenguins)
 ```
 
->>>>>>> 9c1b531 (added library)
+```{r}
+# Examining the relationship between bill length and flipper length.
+library(palmerpenguins)
+data(package = 'palmerpenguins')
+ggplot(penguins, aes(x = bill_depth_mm , y = flipper_length_mm, color = species)) +
+geom_point()
+```
+
+
