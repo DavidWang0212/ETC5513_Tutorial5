@@ -6,3 +6,9 @@ output: html_document
 ---
 
 
+```{r}
+# Libraries
+library(tidyverse)
+library(palmerpenguins)
+```
+
